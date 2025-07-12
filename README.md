@@ -30,12 +30,15 @@ A modern, mobile-first laundry service management app built with **React Native*
 ## 📂 Project Structure
 
 ```
-src/
-├── component/         # Database hooks, utilities, reusable UI
+app/
 ├── screen/            # App screens (e.g. Dashboard, Customers, Services)
 ├── common/            # Helper functions like number formatting
-├── context/           # Global state management
-└── App.tsx            # Entry point
+├── setup/             # Entry setup for App
+└── index.tsx          # Entry point
+src
+├── component/         # Database hooks, utilities, reusable UI
+├── helper/            # Database hooks
+
 ```
 
 ---
