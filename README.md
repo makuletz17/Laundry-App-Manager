@@ -29,3 +29,79 @@ A modern, mobile-first laundry service management app built with **React Native*
 
 ## 📂 Project Structure
 
+```
+src/
+├── component/         # Database hooks, utilities, reusable UI
+├── screen/            # App screens (e.g. Dashboard, Customers, Services)
+├── common/            # Helper functions like number formatting
+├── context/           # Global state management
+└── App.tsx            # Entry point
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/your-username/laundry-manager.git
+cd laundry-manager
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the App
+```bash
+npx expo start
+```
+
+Make sure you have Expo Go installed on your device for testing.
+
+---
+
+## 🧱 Database Schema
+
+This app uses a normalized SQLite structure:
+
+- `customers` – Customer records
+- `services` – Laundry service entries
+- `services_status` – Tracks payment, finished, claimed status
+- `addons` – Extra charges
+- `service_types` – Pricing for types of laundry
+
+> See `initializeDatabase.ts` for schema setup.
+
+---
+
+## 🔒 Privacy
+
+- All data is stored **locally** on-device.
+- No internet access or cloud sync required.
+- See [`Privacy Policy`](#) for more info.
+
+---
+
+## 📸 Screenshots
+
+> _(Include some screenshots here to show UI if available)_
+
+---
+
+## ✨ Future Plans
+
+- 🔄 Data backup & restore
+- ☁️ Optional cloud sync
+- 🧾 Printable receipts (ESC/POS support)
+- 📈 Analytics dashboard
+
+
+---
+
+## 📄 License
+
+MIT License.
