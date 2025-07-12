@@ -89,11 +89,6 @@ This app uses a normalized SQLite structure:
 
 ---
 
-## 📸 Screenshots
-
-> _(Include some screenshots here to show UI if available)_
-
----
 
 ## ✨ Future Plans
 
